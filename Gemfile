@@ -1,20 +1,20 @@
 source 'https://rubygems.org'
-
+ruby '1.9.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '3.2.13'
+gem 'rails', '4.0.1'
 group :development do
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '1.3.5'
+gem 'sqlite3', '1.3.8'
 end
 group :assets do
 # Use SCSS for stylesheets
-gem 'sass-rails', '3.2.4'
+gem 'sass-rails', '4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '1.2.3'
+gem 'uglifier', '2.1.1'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '3.2.2'
+gem 'coffee-rails', '4.0.1'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -24,10 +24,10 @@ end
 gem 'jquery-rails', '3.0.4'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '1.1.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '1.0.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
